@@ -1,8 +1,4 @@
-export class User{
-    id:int;
-    username:string;
-    
-}
+
 export class UserModel {
 
   constructor(

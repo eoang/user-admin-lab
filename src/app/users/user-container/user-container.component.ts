@@ -10,17 +10,17 @@ import { calcPossibleSecurityContexts } from '@angular/compiler/src/template_par
 export class UserContainerComponent implements OnInit{
 
   public users: UserModel[];
-   currentUser: UserModel ;
+    currentUser: UserModel ;
   constructor() {
 
-    this.currentUser;
+    // this.currentUser;
   }
 
-  updateUser(username: string, email: string,jobName:string){
-    this.currentUser.email = email;
-    this.currentUser.username = username;
-    this.currentUser.info.jobTitle=jobName;
-  }
+   updateUser(username: string, email: string,jobName:string){
+  //   this.currentUser.email = email;
+  //   this.currentUser.username = username;
+  //   this.currentUser.info.jobTitle=jobName;
+   }
 
   ngOnInit() {
     console.log('User Container Init');
